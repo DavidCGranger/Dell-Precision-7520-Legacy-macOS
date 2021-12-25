@@ -1,4 +1,4 @@
-# Dell-Precision-7520-OpenCore
+# Dell-Precision-7520-Legacy-macOS-OpenCore
  
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
@@ -13,32 +13,13 @@ iGPU | Intel HD Graphics 530
 dGPU | NVIDIA Quadro M2200 (disabled)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
-macOS | Monterey
 
 ## What works?
-
-- Audio
-- Battery readout
-- Boot
-- Brightness Control
-- Ethernet
-- GPU acceleration
-- Keyboard + Trackpad
-- Power Management
-- SD card reader
-- WiFi
-- Bluetooth
-- Sleep
-- USB
-- Webcam
-- Speaker
-- Trackpoint
+currently unknown
 
 ## What doesn't work?
 
-- dGPU (no support past High Sierra)
-- headphone jack
-- Thunderbolt (untested)
+currently unknown
 
 ## BIOS settings
 
@@ -52,7 +33,7 @@ macOS | Monterey
 
 Download this repo and place the EFI folder into your internal drive's EFI partition... That's it.
 
-## How to Install macOS Monterey
+## How to Install macOS
 
 There are two ways you can make a USB installer:
 
