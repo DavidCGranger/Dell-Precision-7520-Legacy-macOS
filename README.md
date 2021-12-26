@@ -6,11 +6,11 @@ El Capitan to Big Sur, Monterey being supported mainline.
 
 # High Sierra
  
-### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
-
 ### Disclaimer
 This EFI is currently completely unfinished and has
 some major problems. Don't use it, if you don't know what you're doing!
+
+### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
 Testing on:
 
