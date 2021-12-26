@@ -68,6 +68,15 @@ There are two ways you can make a USB installer:
 
 After you have created a bootable Installer, copy the EFI folder to the EFI partition of the installer drive and install as usual (GUID Partiton Map; APFS). After the installation, mount the EFI partition of the installed OS and copy the EFI folder to its partition.
 
+## Trouble in the macOS Installer
+If USB and the trackpad don't work as intended, here I'm
+quickly going over how to fix at least one of these issues.
+What's happening, is, AlpsHID, the kext for Magic trackpad Emulation
+isn't liking the installer, so you need to disable it temporally
+for the install process. I didn't yet find a fix for USB, but
+you should be able to install macOS like this and as soon as the install is
+complete, everything should work as intended. 
+
 ## WiFi
 For WiFi to work on High Sierra, you need to install HeliPort, you
 can find it here: https://github.com/OpenIntelWireless/HeliPort, and run that
@@ -86,7 +95,6 @@ Use GenSMBIOS (https://github.com/corpnewt/GenSMBIOS) to generate a serial for M
 use PlistEdit Pro or any decent plist editor to manually enter the details in the following sections of the config (as shown in the video): (SystemSerialNumber, MLB, and UUID)
 
 https://user-images.githubusercontent.com/59102649/116117179-3ea51200-a6bc-11eb-8a18-a03f7bb5bf1d.mp4
-
 You should also put in your ethernet adapter's MAC address into the ROM section.
 
 ## Credits
