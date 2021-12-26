@@ -18,9 +18,9 @@ Model | Dell Precision 7520
 ------------- | ---------------
 CPU | Intel Core i7-6820HQ
 iGPU | Intel HD Graphics 530
-dGPU | NVIDIA Quadro M2200
+dGPU | NVIDIA Quadro M2200 (working with Webdrivers)
 RAM | 32 GB DDR4
-WiFi | Intel® Dual Band-Wireless-AC 8265
+WiFi | Intel® Dual Band-Wireless-AC 8265 (partially working)
 
 ## What works?
 currently not completely known
