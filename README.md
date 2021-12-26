@@ -64,6 +64,11 @@ https://user-images.githubusercontent.com/59102649/116117179-3ea51200-a6bc-11eb-
 
 You should also put in your ethernet adapter's MAC address into the ROM section.
 
+##Nvidia Drivers
+To install Nvidia Drivers, you need to visit https://www.tonymacx86.com/nvidia-drivers/ on your
+Browser and download the latest version and simply install it and restart. If you haven't already
+disabled switchable graphics, you need to do it now. 
+
 ## Credits
 
 * [acidanthera](https://github.com/acidanthera) (for OpenCore and the kexts)
