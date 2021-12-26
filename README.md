@@ -73,7 +73,7 @@ If USB and the trackpad don't work as intended, here I'm
 quickly going over how to fix at least one of these issues.
 What's happening, is, AlpsHID, the kext for Magic trackpad Emulation
 isn't liking the installer, so you need to disable it temporally
-for the install process. I didn't yet find a fix for USB, but
+for the install process with a Plist-Editor. I didn't yet find a fix for USB, but
 you should be able to install macOS like this and as soon as the install is
 complete, everything should work as intended. 
 
