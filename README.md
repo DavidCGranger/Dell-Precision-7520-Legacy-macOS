@@ -28,8 +28,8 @@ currently not completely known
 
 ## What doesn't work?
 currently not completely known
--Bluetooth
--Card Reader
+ - Bluetooth
+ - Card Reader
 
 ## BIOS settings
 
@@ -54,6 +54,17 @@ There are two ways you can make a USB installer:
 
 After you have created a bootable Installer, copy the EFI folder to the EFI partition of the installer drive and install as usual (GUID Partiton Map; APFS). After the installation, mount the EFI partition of the installed OS and copy the EFI folder to its partition.
 
+## WiFi
+For WiFi to work on High Sierra, you need to install HeliPort, you
+can find it here: https://github.com/OpenIntelWireless/HeliPort, and run that
+every time you start your computer. It's not optimal, but Airportltlwm caused problems
+at least for me. 
+
+## Nvidia Drivers
+To install Nvidia Drivers, you need to visit https://www.tonymacx86.com/nvidia-drivers/ on your
+Browser and download the latest version and simply install it and restart. If you haven't already
+disabled switchable graphics, you need to do it now. 
+
 ## Generating your own serial and Editing ROM
 
 Use GenSMBIOS (https://github.com/corpnewt/GenSMBIOS) to generate a serial for MacBookPro13,3
@@ -63,11 +74,6 @@ use PlistEdit Pro or any decent plist editor to manually enter the details in th
 https://user-images.githubusercontent.com/59102649/116117179-3ea51200-a6bc-11eb-8a18-a03f7bb5bf1d.mp4
 
 You should also put in your ethernet adapter's MAC address into the ROM section.
-
-## Nvidia Drivers
-To install Nvidia Drivers, you need to visit https://www.tonymacx86.com/nvidia-drivers/ on your
-Browser and download the latest version and simply install it and restart. If you haven't already
-disabled switchable graphics, you need to do it now. 
 
 ## Credits
 
