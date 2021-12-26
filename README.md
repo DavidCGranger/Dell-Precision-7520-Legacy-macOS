@@ -2,7 +2,9 @@
  
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
-This repo includes an OpenCore EFI for the Dell Precision 7520 (i7-6820HQ, Skylake).
+This repo includes an OpenCore EFI for the Dell Precision 7520 (i7-6820HQ, Skylake) for legacy
+Versions of macOS, currently only High Sierra, with a little luck all the way from
+El Capitan to Big Sur, Monterey being supported mainline.
 
 Testing on:
 
@@ -15,11 +17,19 @@ RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
 
 ## What works?
-currently unknown
+currently not completely known
+ - WiFi
+ - Trackpad
+ - USB
+ - Boot
+ - Keyboard
+ - Camera (should work, not being tested actively)
+ - USB-C (should work, not being tested actively)
 
 ## What doesn't work?
-
-currently unknown
+currently not completely known
+-Bluetooth
+-Card Reader
 
 ## BIOS settings
 
@@ -28,6 +38,7 @@ currently unknown
 - Thunderbolt: Disabled
 - TPM: Disabled
 - Legacy Mode: Disabled
+- (for Nvidia) Switchable Graphics: Disabled
 
 ## How to install
 
