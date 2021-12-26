@@ -2,6 +2,10 @@
  
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
+### Disclaimer
+This EFI is currently completely unfinished and has
+some major problems. Don't use it, if you don't know what you're doing!
+
 This repo includes an OpenCore EFI for the Dell Precision 7520 (i7-6820HQ, Skylake) for legacy
 Versions of macOS, currently only High Sierra, with a little luck all the way from
 El Capitan to Big Sur, Monterey being supported mainline.
