@@ -22,18 +22,26 @@ WiFi | Intel® Dual Band-Wireless-AC 8265
 
 ## What works?
 currently not completely known
- - WiFi
- - Trackpad
- - USB
+ - Audio
+ - Battery readout
  - Boot
- - Keyboard
- - Camera (should work, not being tested actively)
- - USB-C (should work, not being tested actively)
+ - Brightness Control
+ - Ethernet
+ - GPU acceleration
+ - Keyboard + Trackpad
+ - Power Management
+ - WiFi
+ - Sleep
+ - USB
+ - Webcam
+ - Speaker
+ - Trackpoint
 
 ## What doesn't work?
 currently not completely known
  - Bluetooth
  - Card Reader
+ - Headphone Jack
 
 ## BIOS settings
 
