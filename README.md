@@ -1,4 +1,5 @@
 # Dell-Precision-7520-legacy-macOS
+# High Sierra
  
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
