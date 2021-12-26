@@ -1,4 +1,4 @@
-# Dell-Precision-7520-Legacy-macOS-OpenCore
+# Dell-Precision-7520-legacy-macOS
  
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM)!
 
