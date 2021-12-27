@@ -8,7 +8,7 @@ Versions of macOS, currently only High Sierra and Big Sur, Big Sur being support
 ### Disclaimer
 This EFI is currently completely unfinished and has
 some major problems. Don't use it, if you don't know what you're doing!
-trouble-in-the-macos-installer
+
 ### Before you give this EFI a try, make sure you read [this](#Generating-your-own-serial-and-Editing-ROM) and [this](#trouble-in-the-macos-installer)!
 
 Testing on:
