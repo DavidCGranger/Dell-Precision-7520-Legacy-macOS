@@ -1,7 +1,7 @@
 # Dell-Precision-7520-legacy-macOS
 
 This repo includes an OpenCore EFI for the Dell Precision 7520 (i7-6820HQ, Skylake) for legacy
-Versions of macOS, currently only High Sierra and Big Sur, Big Sur being supported in an EFI supporting both Big Sur and Monterey, and  with a little luck this EFI will support all on Skylake possible macOS Versions.
+Versions of macOS, currently only High Sierra and Big Sur, Big Sur being supported in an EFI supporting both Big Sur and Monterey, you can find it in the corresponding branch, and  with a little luck this EFI will support all on Skylake possible macOS Versions.
 
 # High Sierra
  
