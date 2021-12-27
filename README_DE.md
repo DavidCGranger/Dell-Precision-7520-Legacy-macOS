@@ -9,7 +9,7 @@ Versionen von macOS, derzeit nur High Sierra und Big Sur, Big Sur wird in einem 
 Dieses EFI ist derzeit noch komplett unfertig und hat
 einige große Probleme. Nur benutzen, wenn man Ahnung von OpenCore hat!
 
-### Bevor man diese EFI ausprobiert, bitte [das hier](#Generating-your-own-serial-and-Editing-ROM) und [das hier](#trouble-in-the-macos-installer) durchlesen!
+### Bevor man diese EFI ausprobiert, bitte [das hier](#generieren-der-eigenen-serien--und-bearbeitungs-rom) und [das hier](#probleme-im-macos-installer) durchlesen!
 
 Tests passieren auf folgender Hardware:
 
