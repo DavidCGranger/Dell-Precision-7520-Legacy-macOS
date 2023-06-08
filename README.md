@@ -1,8 +1,10 @@
-# Dell-Precision-7520-OpenCore
+# Dell-Precision-7520-legacy-macOS
+
+### You're currently in the Catalina Branch.
 
 ### Before you give this EFI a try, make sure you read [this](#UEFI-settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
-This repo includes an OpenCore EFI for the Dell Precision 7520.
+This repo includes an OpenCore EFI for the Dell Precision 7520 for old versions of macOS.
 
 Testing on:
 
@@ -13,7 +15,7 @@ iGPU | Intel HD Graphics 530 (spoofed to HD 630)
 dGPU | NVIDIA Quadro M2200 (disabled)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
-macOS | Ventura 13.1
+macOS | Catalina
 
 ## What works?
 
