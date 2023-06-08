@@ -1,6 +1,6 @@
 # Dell-Precision-7520-legacy-macOS
 
-### You're currently in the Mojave Branch.
+### You're currently in the High Sierra Branch.
 
 ### Before you give this EFI a try, make sure you read [this](#UEFI-settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
@@ -15,7 +15,7 @@ iGPU | Intel HD Graphics 530 (spoofed to HD 630)
 dGPU | NVIDIA Quadro M2200 (disabled)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
-macOS | Mojave
+macOS | High Sierra
 
 ## What works?
 
@@ -38,8 +38,8 @@ macOS | Mojave
 
 ## What doesn't work?
 
-- dGPU (no support past High Sierra)
-- headphone jack (white noise)
+- dGPU (might be enabled with WebDrivers)
+- headphone jack
 - Thunderbolt (untested)
 - HDMI (untested)
 - Bluetooth Audio (untested)
