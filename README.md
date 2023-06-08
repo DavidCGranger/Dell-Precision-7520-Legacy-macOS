@@ -1,6 +1,6 @@
 # Dell-Precision-7520-legacy-macOS
 
-### You're currently in the Catalina Branch.
+### You're currently in the Mojave Branch.
 
 ### Before you give this EFI a try, make sure you read [this](#UEFI-settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
@@ -15,7 +15,7 @@ iGPU | Intel HD Graphics 530 (spoofed to HD 630)
 dGPU | NVIDIA Quadro M2200 (disabled)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
-macOS | Catalina
+macOS | Mojave
 
 ## What works?
 
