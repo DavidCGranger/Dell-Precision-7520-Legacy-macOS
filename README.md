@@ -4,7 +4,7 @@
 
 ### Before you give this EFI a try, make sure you read [this](#UEFI-settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
-This repo includes an OpenCore EFI for the Dell Precision 7520 for old versions of macOS, Catalina in this case.
+This repo includes an OpenCore EFI for the Dell Precision 7520 for old versions of macOS, Mojave in this case.
 
 Testing on:
 
