@@ -12,7 +12,7 @@ Model | Dell Precision 7520
 ------------- | ---------------
 CPU | Intel Core i7-6820HQ
 iGPU | Intel HD Graphics 530
-dGPU | NVIDIA Quadro M2200 (disabled on Mojave and later)
+dGPU | NVIDIA Quadro M2200 (can be manually enabled via Web Drivers)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
 macOS | High Sierra
