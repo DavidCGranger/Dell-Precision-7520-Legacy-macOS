@@ -4,15 +4,15 @@
 
 ### Before you give this EFI a try, make sure you read [this](#UEFI-settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
-This repo includes an OpenCore EFI for the Dell Precision 7520 for old versions of macOS.
+This repo includes an OpenCore EFI for the Dell Precision 7520 for old versions of macOS, Catalina in this case.
 
 Testing on:
 
 Model | Dell Precision 7520
 ------------- | ---------------
 CPU | Intel Core i7-6820HQ
-iGPU | Intel HD Graphics 530 (spoofed to HD 630)
-dGPU | NVIDIA Quadro M2200 (disabled)
+iGPU | Intel HD Graphics 530
+dGPU | NVIDIA Quadro M2200 (disabled on Mojave and later)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
 macOS | Mojave
@@ -59,9 +59,9 @@ macOS | Mojave
 
 Download this repo and place the EFI folder into your internal drive's EFI partition... That's it.
 
-## How to Install macOS Ventura
+## How to Install macOS Mojave
 
-1. Have a working install of macOS, [download](https://mrmacintosh.com/macos-ventura-13-full-installer-database-download-directly-from-apple/) the full installer package, install it to get the installer app, then make a bootable Installer with `createinstallmedia` by using this command in Terminal `sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/NameOfTheUSB`
+1. Have a working install of macOS, [download](https://apps.apple.com/de/app/macos-mojave/id1398502828?mt=12) the Installer using the App Store, then make a bootable Installer with `createinstallmedia` by using this command in Terminal `sudo /Applications/Install\ macOS\ Mojave.app/Contents/Resources/createinstallmedia --volume /Volumes/NameOfTheUSB`
 
 After you have created a bootable Installer, copy the EFI folder to the EFI partition of the installer drive and install as usual (GUID Partiton Map; APFS). After the installation, mount the EFI partition of the installed OS and copy the EFI folder to its partition.
 
