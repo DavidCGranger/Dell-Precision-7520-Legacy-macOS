@@ -15,7 +15,7 @@ iGPU | Intel HD Graphics 530
 dGPU | NVIDIA Quadro M2200 (disabled on Mojave and later)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
-macOS | Mojave
+macOS | Mojave 10.14.6
 
 ## What works?
 
