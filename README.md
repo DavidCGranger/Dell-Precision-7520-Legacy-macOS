@@ -77,6 +77,17 @@ https://user-images.githubusercontent.com/59102649/116117179-3ea51200-a6bc-11eb-
 
 You should also put in your ethernet adapter's MAC address into the ROM section.
 
+## Enabling the Nvidia GPU using Webdrivers
+
+Doing this is not recommended from my side, I had serious issues after doing this in the past!
+
+1. Download [Nvidia Web Drivers](https://www.tonymacx86.com/nvidia-drivers/)
+2. Open your Plist Editor, like ProperTree
+3. Remove the flag igfxonln=1 in boot-args in the config.plist file
+4. Search for SSDT-NoHybGfx in the config.plist file, set it to disabled
+5. Install the Nvidia Web Drivers you downloaded earlier
+6. Done
+
 ## Credits
 
 * [acidanthera](https://github.com/acidanthera) (for OpenCore and the kexts)
