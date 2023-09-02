@@ -44,7 +44,6 @@ macOS | High Sierra 10.13.6
 - headphone jack
 - Thunderbolt (untested)
 - HDMI (untested)
-- Bluetooth Audio (untested)
 
 ## UEFI settings
 
