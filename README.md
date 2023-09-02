@@ -1,21 +1,22 @@
-# Dell-Precision-7520-OpenCore
+# Dell-Precision-7520-legacy-macOS
 
-## This repository is being deprecated as the owners machine happened to die.
-
+### Download: [Catalina](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/catalina-0.9.3), [Mojave](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/mojave-0.9.3), [High Sierra](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/high-sierra-0.9.3)
+Look in the specific branches for specific instructions, which is recommended
+### You're currently in the Catalina Branch. 
 ### Before you give this EFI a try, make sure you read [this](#UEFI-settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
-This repo includes an OpenCore EFI for the Dell Precision 7520.
+This repo includes an OpenCore EFI for the Dell Precision 7520 for old versions of macOS, Catalina in this case.
 
 Testing on:
 
 Model | Dell Precision 7520
 ------------- | ---------------
 CPU | Intel Core i7-6820HQ
-iGPU | Intel HD Graphics 530 (spoofed to HD 630)
-dGPU | NVIDIA Quadro M2200 (disabled)
+iGPU | Intel HD Graphics 530
+dGPU | NVIDIA Quadro M2200 (disabled on Mojave and later)
 RAM | 32 GB DDR4
 WiFi | Intel® Dual Band-Wireless-AC 8265
-macOS | Ventura 13.1
+macOS | Catalina 10.15.7
 
 ## What works?
 
@@ -42,6 +43,7 @@ macOS | Ventura 13.1
 - headphone jack (white noise)
 - Thunderbolt (untested)
 - HDMI (untested)
+- Bluetooth Audio (untested)
 
 ## UEFI settings
 
@@ -54,24 +56,13 @@ macOS | Ventura 13.1
 - Legacy Option ROM: Disabled
 - Wake on LAN/WLAN: Disabled
 
-You'll also need to set some settings that are hidden from the menu.
-Boot the OpenCore EFI, press Space and select modGRUBShell.efi
-
-From there enter these commands:
-
-setup_var 0x4ED 0x00 (Disable CFG-Lock)
-
-setup_var 0x795 0x2 (set DVMT Pre-Allocation to 64MB)
-
-setup_var 0x796 0x3 (set DVMT Total GFX Size to MAX)
-
 ## How to install
 
 Download this repo and place the EFI folder into your internal drive's EFI partition... That's it.
 
-## How to Install macOS Ventura
+## How to Install macOS Catalina
 
-1. Have a working install of macOS, [download](https://mrmacintosh.com/macos-ventura-13-full-installer-database-download-directly-from-apple/) the full installer package, install it to get the installer app, then make a bootable Installer with `createinstallmedia` by using this command in Terminal `sudo /Applications/Install\ macOS\ Ventura.app/Contents/Resources/createinstallmedia --volume /Volumes/NameOfTheUSB`
+1. Have a working install of macOS, [download](https://apps.apple.com/de/app/macos-catalina/id1466841314?mt=12) the Installer using the App Store, then make a bootable Installer with `createinstallmedia` by using this command in Terminal `sudo /Applications/Install\ macOS\ Catalina.app/Contents/Resources/createinstallmedia --volume /Volumes/NameOfTheUSB`
 
 After you have created a bootable Installer, copy the EFI folder to the EFI partition of the installer drive and install as usual (GUID Partiton Map; APFS). After the installation, mount the EFI partition of the installed OS and copy the EFI folder to its partition.
 
