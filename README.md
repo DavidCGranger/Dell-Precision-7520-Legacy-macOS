@@ -1,7 +1,7 @@
 # Dell-Precision-7520-legacy-macOS
 
 ### You're currently in the High Sierra Branch.
-### Download: [Catalina](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/catalina-0.9.3), [Mojave](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/mojave-0.9.3), [High Sierra](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/high-sierra-0.9.3)
+### Download: [Catalina](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/catalina-0.9.4), [Mojave](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/mojave-0.9.4), [High Sierra](https://github.com/DavidCGranger/Dell-Precision-7520-legacy-macOS/releases/tag/high-sierra-0.9.4)
 Look in the specific branches for specific instructions, which is recommended
 ### Before you give this EFI a try, make sure you read [this](#UEFI-settings) and [this](#Generating-your-own-serial-and-Editing-ROM)!
 
