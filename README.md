@@ -43,7 +43,6 @@ macOS | Mojave 10.14.6
 - headphone jack (white noise)
 - Thunderbolt (untested)
 - HDMI (untested)
-- Bluetooth Audio (untested)
 
 ## UEFI settings
 
