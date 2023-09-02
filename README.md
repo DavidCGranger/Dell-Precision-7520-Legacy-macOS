@@ -43,7 +43,6 @@ macOS | Catalina 10.15.7
 - headphone jack (white noise)
 - Thunderbolt (untested)
 - HDMI (untested)
-- Bluetooth Audio (untested)
 
 ## UEFI settings
 
